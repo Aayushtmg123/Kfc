@@ -1,0 +1,173 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #fffaf0;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header Styling */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10%;
+    background-color: #d3232a;
+}
+
+.logo img {
+    width: 100px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #ffcc00;
+}
+/*container*/
+.container{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+.form-container{
+    padding: 30px;
+    border: 2px solid:#fff;
+    background-color: #d3232a;
+}
+/* Hero Section */
+.hero {
+    background-image: url('https://wallpapers.com/images/high/kfc-feast-meal-lkce3tliv4ztigrj.webp');
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+}
+@media (max-width: 768px) { 
+    .explore-button {
+     padding: 15px 30px;
+     font-size: 1.2rem; 
+ } 
+    } @media (max-width: 480px)
+     {
+    .explore-button { 
+    width: 100%; 
+    padding:20px; 
+    font-size: 1.5rem; 
+} 
+}
+
+.hero h1 {
+    font-size: 3rem;
+    text-align: right;
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.hero p {
+    font-size: 1.5rem;
+    text-align: right;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+
+.btn {
+    padding: 10px 30px;
+    background-color: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #d3232a;
+    color: #fff;
+}
+
+/* Menu Section */
+.menu {
+    padding: 50px 10%;
+    text-align: center;
+}
+
+.menu h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.menu-items {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.menu-items:hover{
+    background-color: #ffdb82;
+    transform: scale(1.05);
+}
+
+.item {
+    width: 30%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.item h3 {
+    margin-top: 10px;
+    color: #d3232a;
+}
+
+/* About Section */
+.about, .contact {
+    padding: 50px 10%;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.about h2, .contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #d3232a;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+    }
